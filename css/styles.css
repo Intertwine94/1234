@@ -7,6 +7,11 @@ body {
     line-height: 1.6;
 }
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
 header {
     background-color: #444;
     color: #fff;
@@ -38,27 +43,18 @@ nav ul li a {
 }
 
 section {
-    padding: 20px;
+    padding: 20px 0;
 }
 
-section#about {
-    background: #f4f4f4;
-}
-
-section#services {
-    background: #fff;
-}
-
-section#jobs {
-    background: #f4f4f4;
-}
-
-section#employers {
-    background: #fff;
-}
-
+section#about,
+section#jobs,
 section#contact {
     background: #f4f4f4;
+}
+
+section#services,
+section#employers {
+    background: #fff;
 }
 
 footer {
@@ -66,7 +62,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
